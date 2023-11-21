@@ -42,7 +42,7 @@
 
 ### After the above step, up the migrations.:
 
-    php artisar migrate
+    php artisan migrate
 
 ### Finally, to ensure that there will be no problem with the key, the application executes the command to recreate it:
 
@@ -53,6 +53,10 @@
     php artisan serve
 
 Generally, the application is started in [http://localhost:8000](http://localhost:8000) (check terminal info)
+
+### Using Docker:
+
+     ./vendor/bin/sail up
 
 ### To run the tests use:
 
